@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ScanSearch, Crosshair, ShieldCheck, LineChart } from "lucide-react";
 import { Container } from "../ui/Container";
 import { SectionHeading } from "../ui/SectionHeading";
@@ -53,30 +52,6 @@ export function Objectives() {
             </Reveal>
           ))}
         </div>
-
-        <Reveal delay={0.3}>
-          <div className="mx-auto mt-16 grid max-w-4xl gap-8 rounded-3xl border border-white/10 bg-white/[0.03] p-8 sm:grid-cols-2 sm:items-center sm:p-10">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl">
-              <Image
-                src="/images/gallery/rg-nir-composite.jpg"
-                alt="Illustrative concept graphic of a drone scanning a field and surfacing a crop-stress zone"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div>
-              <p className="font-display text-lg font-semibold text-white">
-                The idea, in one picture
-              </p>
-              <p className="mt-3 text-sm leading-relaxed text-white/65">
-                A conceptual illustration of what AGRON does: fly over a field,
-                fuse what the cameras see, and surface exactly where stress is
-                hiding — before it spreads. The real, field-collected version
-                of this is in the Research and Gallery sections below.
-              </p>
-            </div>
-          </div>
-        </Reveal>
       </Container>
     </section>
   );

@@ -26,7 +26,7 @@ export const videos: VideoEntry[] = [
     description:
       "The drone executing a boustrophedon survey mission over a real rice field, capturing synchronized RGB and NoIR imagery.",
     youtubeId: "B-ZxedSz7Ow",
-    poster: "/images/photos/rgb-nir-orthomosaic.jpeg",
+    poster: "/images/photos/field1-orthomosaic.jpeg",
     durationHint: "Flight demo",
   },
   {
@@ -35,7 +35,7 @@ export const videos: VideoEntry[] = [
     description:
       "Drawing field boundaries, selecting mission types, generating waypoints, and monitoring live telemetry from the Flutter app.",
     youtubeId: "0Eo5fRf2hWM",
-    poster: "/images/gallery/ndvi-health-zones.png",
+    poster: "/images/gallery/field1-health-zones.png",
     durationHint: "App walkthrough",
   },
   {
@@ -53,15 +53,15 @@ export const videos: VideoEntry[] = [
     description:
       "A look at the self-collected RGB/NoIR dataset and the resulting NDVI, clustering, and autoencoder anomaly outputs.",
     youtubeId: "IouzTgqVh3s",
-    poster: "/images/gallery/autoencoder-anomaly-map.png",
+    poster: "/images/gallery/field2-final-stress-map.png",
     durationHint: "Research outputs",
   },
   {
     id: "highlight-clip",
     title: "Quick Highlight Clip",
-    description: "A short highlight clip of AGRON in the field.",
+    description: "A fast recap of what we built — mission planning, autonomous flight, and crop-stress detection — in under a minute.",
     youtubeId: "bcjIDWA5Myk",
-    poster: "/images/gallery/crop-segmentation-mask.png",
+    poster: "/images/gallery/field1-crop-segmentation-mask.png",
     durationHint: "Highlight",
   },
 ];

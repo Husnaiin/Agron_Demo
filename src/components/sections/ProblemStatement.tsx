@@ -57,7 +57,7 @@ export function ProblemStatement() {
           <Reveal>
             <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
               <Image
-                src="/images/gallery/stress-detection-map.jpeg"
+                src="/images/gallery/concept-illustration.jpg"
                 alt="Illustrative concept graphic of a drone identifying stressed crop zones in a field"
                 fill
                 className="object-cover"
