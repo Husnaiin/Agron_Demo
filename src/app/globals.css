@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbfaf6;
+  --foreground: #14210d;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* AGRON brand green ramp — derived from the official logo (#506A20 / #6A942E) */
+  --color-brand-50: #f3f7ea;
+  --color-brand-100: #e3edcc;
+  --color-brand-200: #c8dd9c;
+  --color-brand-300: #a8c96e;
+  --color-brand-400: #8aB347;
+  --color-brand-500: #6a942e;
+  --color-brand-600: #506a20;
+  --color-brand-700: #3f5419;
+  --color-brand-800: #314213;
+  --color-brand-900: #24310e;
+  --color-brand-950: #15200a;
+
+  /* near-black ink used for dark sections / hero */
+  --color-ink-900: #0a0f08;
+  --color-ink-800: #10160c;
+  --color-ink-700: #161d11;
+  --color-ink-600: #1f2a17;
+  --color-ink-500: #2b3a1f;
+
+  /* warm accent pulled from NDVI stress-map heat tones, used sparingly */
+  --color-amber-400: #e3a64a;
+  --color-amber-500: #d6892f;
+
+  --color-paper: #fbfaf6;
+
+  --font-display: var(--font-sora);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #fbfaf6;
+    --foreground: #14210d;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: var(--color-brand-300);
+  color: var(--color-ink-900);
+}
+
+.font-display {
+  font-family: var(--font-display), var(--font-sans), sans-serif;
+}
+
+.bg-noise {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.06) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
