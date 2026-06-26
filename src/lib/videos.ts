@@ -59,7 +59,7 @@ export const videos: VideoEntry[] = [
   {
     id: "highlight-clip",
     title: "Quick Highlight Clip",
-    description: "A fast recap of what we built — mission planning, autonomous flight, and crop-stress detection — in under a minute.",
+    description: "A fast recap of what we built",
     youtubeId: "bcjIDWA5Myk",
     poster: "/images/gallery/field1-crop-segmentation-mask.png",
     durationHint: "Highlight",
