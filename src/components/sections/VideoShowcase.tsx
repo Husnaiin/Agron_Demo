@@ -11,14 +11,14 @@ export function VideoShowcase() {
         <SectionHeading
           tone="dark"
           eyebrow="See It In Action"
-          title="Watch AGRON fly, sense, and report"
-          description="From mission planning on a phone to an autonomous flight and a finished NDVI report — these clips walk through every part of the system."
+          title="Watch AGRON work"
+          description="Live footage from real AGRON missions in the field."
         />
 
         <div className="mt-14 grid gap-8 sm:grid-cols-2">
           {videos.map((video, i) => (
-            <Reveal key={video.id} delay={(i % 2) * 0.1}>
-              <div className={i === 0 ? "sm:col-span-2" : ""}>
+            <Reveal key={video.id} delay={i * 0.1}>
+              <div>
                 <YouTubeEmbed
                   youtubeId={video.youtubeId}
                   poster={video.poster}

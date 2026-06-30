@@ -1,29 +1,28 @@
-import Link from "next/link";
-import { WifiOff, Sprout, PiggyBank, Mic, ArrowRight, FileImage } from "lucide-react";
+import { WifiOff, Sprout, BadgeDollarSign, UserCheck, ArrowRight } from "lucide-react";
 import { Container } from "../ui/Container";
 import { SectionHeading } from "../ui/SectionHeading";
 import { Reveal } from "../ui/Reveal";
 
 const highlights = [
   {
-    icon: WifiOff,
-    title: "Offline-first",
-    body: "Plans, flies, and captures missions with zero connectivity — syncs to the cloud only once a connection is available.",
-  },
-  {
     icon: Sprout,
-    title: "Less chemical waste",
-    body: "Only the flagged 10–20% of a field gets sprayed — cutting pesticide costs and protecting soil health over time.",
+    title: "Up to 50% less chemical spend",
+    body: "Only flagged zones get treated — typically 10–20% of the field. Less waste, lower costs, healthier soil.",
   },
   {
-    icon: PiggyBank,
-    title: "Cost-effective",
-    body: "A dual RGB/NoIR camera rig replaces multispectral sensors that cost many times more.",
+    icon: BadgeDollarSign,
+    title: "A fraction of the cost",
+    body: "Built for under $1,500 — while commercial systems start at $20,000–$25,000 and require recurring subscriptions.",
   },
   {
-    icon: Mic,
-    title: "Built for the field",
-    body: "Designed for non-technical farmers today — with a future Urdu voice interface on the roadmap.",
+    icon: UserCheck,
+    title: "No training required",
+    body: "Any farmer can plan, launch, and review a full survey. No drone license, no technical background, no help needed.",
+  },
+  {
+    icon: WifiOff,
+    title: "Works anywhere",
+    body: "Remote fields, no signal, no problem — every mission runs fully offline and syncs when connectivity returns.",
   },
 ];
 
@@ -57,11 +56,11 @@ export function WhyAgron() {
         <Reveal delay={0.25}>
           <div className="mx-auto mt-16 max-w-3xl rounded-3xl border border-white/10 bg-gradient-to-br from-brand-500/15 via-white/[0.03] to-transparent p-8 text-center sm:p-12">
             <p className="font-display text-2xl font-bold text-white sm:text-3xl">
-              Detect early. Act precisely. Farm smarter.
+              See more. Spray less.
             </p>
             <p className="mt-4 text-base leading-relaxed text-white/65">
-              AGRON closes the loop from spotting crop stress to planning the
-              next survey — without asking farmers to become drone experts.
+              One autonomous flight. A complete field health report. Targeted
+              action — without asking farmers to become drone experts.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
               <a
@@ -71,14 +70,6 @@ export function WhyAgron() {
                 Watch the Demo
                 <ArrowRight className="h-4 w-4" />
               </a>
-              <Link
-                href="/images/poster.jpeg"
-                target="_blank"
-                className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-6 py-3.5 text-base font-semibold text-white transition-colors hover:bg-white/10"
-              >
-                <FileImage className="h-4 w-4" />
-                View Research Poster
-              </Link>
             </div>
           </div>
         </Reveal>

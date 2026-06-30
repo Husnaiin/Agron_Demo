@@ -36,7 +36,7 @@ export function Hero() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.18em] text-brand-200"
           >
-            Offline-First Precision Agriculture
+            Precision Agriculture · Autonomous · Offline-First
           </motion.div>
 
           <motion.h1
@@ -44,8 +44,8 @@ export function Hero() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="font-display mt-6 max-w-4xl text-4xl font-bold leading-[1.08] tracking-tight text-balance text-white sm:text-6xl lg:text-7xl"
           >
-            AI-driven agentic drones for{" "}
-            <span className="text-brand-300">precision agriculture</span>
+            See more.{" "}
+            <span className="text-brand-300">Spray less.</span>
           </motion.h1>
 
           <motion.p
@@ -53,9 +53,9 @@ export function Hero() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="mt-6 max-w-2xl text-lg leading-relaxed text-white/70 sm:text-xl"
           >
-            AGRON surveys fields autonomously, fuses RGB and NoIR imagery into
-            NDVI crop-health maps, and flags stressed zones early — so farmers
-            spray only what needs it, even with no internet connection.
+            AGRON autonomously surveys your fields, maps every health zone, and
+            pinpoints exactly where stress is emerging — so you treat only what
+            needs it, with no internet connection required.
           </motion.p>
 
           <motion.div
@@ -84,10 +84,10 @@ export function Hero() {
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="mt-16 grid grid-cols-2 gap-x-8 gap-y-8 border-t border-white/10 pt-8 sm:grid-cols-4"
           >
-            <Stat tone="dark" value="$1.5K" label="Prototype cost vs $20K–25K+ commercial tools" />
-            <Stat tone="dark" value="10K+" label="Self-collected RGB/NoIR crop images" />
-            <Stat tone="dark" value="30+" label="Field survey sessions over a full year" />
-            <Stat tone="dark" value="0" label="Internet connection required mid-mission" />
+            <Stat tone="dark" value="~10 ac" label="Covered per autonomous flight on a single charge" />
+            <Stat tone="dark" value="$1.5K" label="System cost — 93% less than commercial alternatives" />
+            <Stat tone="dark" value="30–50%" label="Reduction in pesticide use with targeted treatment" />
+            <Stat tone="dark" value="0" label="Internet required — works in the most remote fields" />
           </motion.div>
         </motion.div>
       </Container>

@@ -9,10 +9,9 @@ import { Container } from "../ui/Container";
 const links = [
   { href: "#problem", label: "Problem" },
   { href: "#solution", label: "Solution" },
-  { href: "#system", label: "System" },
-  { href: "#research", label: "Research" },
+  { href: "#system", label: "Platform" },
+  { href: "#research", label: "Results" },
   { href: "#demo", label: "Demo" },
-  { href: "#gallery", label: "Gallery" },
 ];
 
 export function Navbar() {

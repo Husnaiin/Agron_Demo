@@ -7,22 +7,22 @@ const objectives = [
   {
     icon: ScanSearch,
     title: "Detect early stress",
-    body: "Fuse RGB and NoIR drone imagery with deep learning to identify stress before it's visible to the human eye — turning raw aerial pixels into NDVI crop-health maps.",
+    body: "Identify crop stress before it's visible to the human eye — pinpointing affected zones across the whole field in a single flight, days before damage spreads.",
   },
   {
     icon: Crosshair,
     title: "Act precisely",
-    body: "Move from blanket spraying toward targeted inspection and, eventually, selective intervention — treating only the zones that actually need it.",
+    body: "Treat only what needs it — cutting chemical waste, reducing costs, and protecting healthy crop from unnecessary intervention.",
   },
   {
     icon: ShieldCheck,
     title: "Stay safe",
-    body: "Battery-aware return-to-launch, a persistent alert queue, and robust flight control keep autonomous missions safe even over patchy connections.",
+    body: "Safe by design — the drone returns home automatically if anything goes wrong, and every alert is delivered to your phone the moment signal returns.",
   },
   {
     icon: LineChart,
     title: "Show insights clearly",
-    body: "Present NDVI maps, stress reports, mission records, and dashboard analytics in a form a non-technical farmer can actually act on.",
+    body: "Present field health maps, stress reports, mission records, and trend analytics in a form a non-technical farmer can actually act on.",
   },
 ];
 
@@ -33,8 +33,8 @@ export function Objectives() {
         <SectionHeading
           tone="dark"
           eyebrow="The Solution"
-          title="One drone ecosystem, four jobs to do"
-          description="AGRON is a low-cost, offline-first precision agriculture ecosystem that uses deep learning on RGB + NoIR drone imagery, NDVI analytics, and clustering to detect crop stress early — delivering field-level insight without requiring technical drone expertise."
+          title="Four capabilities. One system."
+          description="One autonomous flight delivers everything a farmer needs to know: where to act, where to hold off, and where to watch for next time."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

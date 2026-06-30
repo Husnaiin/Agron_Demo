@@ -18,7 +18,7 @@ const problems = [
   {
     icon: DollarSign,
     title: "Commercial tools price out small farms",
-    body: "Existing precision-agriculture drones and multispectral sensors often cost $20K–25K or more, putting them out of reach for most local farmers.",
+    body: "Existing precision agriculture systems cost $20K–$25K or more — putting them entirely out of reach for smallholder farmers.",
   },
   {
     icon: WifiOff,
@@ -34,7 +34,7 @@ export function ProblemStatement() {
         <SectionHeading
           eyebrow="The Problem"
           title="Precision agriculture wasn't built for the farmers who need it most"
-          description="Pakistan imported roughly $193M worth of pesticides in 2024 — much of it sprayed across entire fields when only patches were ever at risk. We set out to build a system that makes early detection and targeted action affordable, autonomous, and usable without continuous internet."
+          description="Pakistan imported roughly $193M worth of pesticides in 2024 — much of it sprayed across entire fields when only patches were ever at risk. AGRON makes early detection and targeted treatment accessible to every farm, at a fraction of the cost."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -66,15 +66,10 @@ export function ProblemStatement() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="font-display text-xl font-semibold leading-snug text-ink-900 sm:text-2xl">
-              &ldquo;We make precision agriculture usable for the non-technical
-              farmer.&rdquo;
+              Precision agriculture should work for every farmer — not just those with a six-figure budget.
             </p>
             <p className="mt-5 text-base leading-relaxed text-ink-600">
-              The problem we focused on: designing an affordable, autonomous,
-              offline-first drone-based system that can survey fields, collect
-              RGB and NoIR/NIR imagery, detect crop stress areas, and help
-              farmers take targeted action — instead of spraying the whole
-              field and hoping for the best.
+              Built for under $1,500. No internet. No drone license. One flight — and a farmer knows exactly where to treat.
             </p>
           </Reveal>
         </div>

@@ -19,9 +19,9 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "AGRON — AI-Driven Agentic Drone System for Precision Agriculture",
+  title: "AGRON — Autonomous Crop Stress Detection for Every Farm",
   description:
-    "AGRON is a low-cost, offline-first precision agriculture drone ecosystem that uses RGB + NoIR imagery, NDVI analytics, and deep learning to detect crop stress early and enable targeted spraying instead of blanket pesticide use.",
+    "AGRON autonomously surveys fields, maps crop health zone by zone, and pinpoints exactly where stress is emerging — so farmers treat only what needs it. Offline-first, built for under $1,500.",
   keywords: [
     "AGRON",
     "precision agriculture",

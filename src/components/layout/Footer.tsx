@@ -4,10 +4,9 @@ import { Container } from "../ui/Container";
 const links = [
   { href: "#problem", label: "Problem" },
   { href: "#solution", label: "Solution" },
-  { href: "#system", label: "System" },
-  { href: "#research", label: "Research" },
+  { href: "#system", label: "Platform" },
+  { href: "#research", label: "Results" },
   { href: "#demo", label: "Demo" },
-  { href: "#gallery", label: "Gallery" },
 ];
 
 export function Footer() {
@@ -38,8 +37,8 @@ export function Footer() {
         <div className="h-px w-full bg-white/10" />
 
         <div className="flex flex-col gap-2 text-sm text-white/45 sm:flex-row sm:items-center sm:justify-between">
-          <p>AGRON — AI-driven agentic drone system for precision agriculture.</p>
-          <p className="text-white/35">Fly Smart, Farm Smarter.</p>
+          <p>AGRON — Autonomous crop stress detection for every farm.</p>
+          <p className="text-white/35">See more. Spray less.</p>
         </div>
       </Container>
     </footer>

@@ -13,55 +13,20 @@ export type VideoEntry = {
 export const videos: VideoEntry[] = [
   {
     id: "full-demo",
-    title: "Full System Demo",
+    title: "End-to-End Demo",
     description:
-      "End-to-end walkthrough: mission planning on the mobile GCS, autonomous drone flight, and live results on the analytics dashboard.",
+      "Plan a field, launch the drone, and receive a finished health report — the complete AGRON workflow in a single session.",
     youtubeId: "QLaP6_D4XU8",
     poster: "/images/photos/field-survey-aerial.jpeg",
     durationHint: "Full demo",
   },
   {
     id: "drone-flight",
-    title: "Autonomous Drone Flight",
+    title: "Autonomous Field Survey",
     description:
-      "The drone executing a boustrophedon survey mission over a real rice field, capturing synchronized RGB and NoIR imagery.",
+      "The drone covers the entire field from takeoff to landing — no pilot input, no missed patches.",
     youtubeId: "B-ZxedSz7Ow",
     poster: "/images/photos/field1-orthomosaic.jpeg",
-    durationHint: "Flight demo",
-  },
-  {
-    id: "mobile-gcs",
-    title: "Mobile Ground Control Station",
-    description:
-      "Drawing field boundaries, selecting mission types, generating waypoints, and monitoring live telemetry from the Flutter app.",
-    youtubeId: "0Eo5fRf2hWM",
-    poster: "/images/gallery/field1-health-zones.png",
-    durationHint: "App walkthrough",
-  },
-  {
-    id: "dashboard",
-    title: "Web Analytics Dashboard",
-    description:
-      "Reviewing past surveys, RGB vs NDVI map layers, crop-health trends, and the Comparison Lab for tracking change over time.",
-    youtubeId: "Qk7hytJj7_o",
-    poster: "/images/gallery/stress-detection-map.jpeg",
-    durationHint: "Dashboard walkthrough",
-  },
-  {
-    id: "dataset-outputs",
-    title: "Dataset & Model Outputs",
-    description:
-      "A look at the self-collected RGB/NoIR dataset and the resulting NDVI, clustering, and autoencoder anomaly outputs.",
-    youtubeId: "IouzTgqVh3s",
-    poster: "/images/gallery/field2-final-stress-map.png",
-    durationHint: "Research outputs",
-  },
-  {
-    id: "highlight-clip",
-    title: "Quick Highlight Clip",
-    description: "A fast recap of what we built",
-    youtubeId: "bcjIDWA5Myk",
-    poster: "/images/gallery/field1-crop-segmentation-mask.png",
-    durationHint: "Highlight",
+    durationHint: "Flight",
   },
 ];
